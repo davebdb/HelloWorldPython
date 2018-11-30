@@ -5,7 +5,15 @@
 # https://www.guru99.com/learn-python-main-function-with-examples-understand-main.html
 
 def main():
-	print("Hello World")
+	message='Hello World'
+	print(message)
+	messageUPPER=message.upper()
+	print(messageUPPER)
+	messageREPLACED=message.replace('World','Earth')	
+	print(messageREPLACED)
+
+
+
 
 if __name__ == "__main__":
     # execute only if run as a script
